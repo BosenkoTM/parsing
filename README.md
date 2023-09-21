@@ -3,7 +3,7 @@
 1. Посмотреть документацию к API GitHub, 
 разобраться как вывести список репозиториев для конкретного пользователя, 
 сохранить JSON-вывод в файле *.json. <br>
-[Решение](https://github.com/bostspb/parsing/blob/master/lesson01/task01.py)
+[Решение](https://github.com/BosenkoTM/parsing/blob/main/lesson01/task01.py)
  
 2. Изучить список открытых API (https://www.programmableweb.com/category/all/apis). 
 Найти среди них любое, требующее авторизацию (любого типа). 
@@ -12,7 +12,7 @@
 Если нет желания заморачиваться с поиском, 
 возьмите API вконтакте (https://vk.com/dev/first_guide). 
 Сделайте запрос, чтобы получить список всех сообществ на которые вы подписаны.<br>
-[Решение](https://github.com/bostspb/parsing/blob/master/lesson01/task02.py)
+[Решение](https://github.com/BosenkoTM/parsing/blob/main/lesson01/task02.py)
 
 
 ## Урок 2. Парсинг HTML. BeautifulSoup, MongoDB
@@ -31,7 +31,7 @@
 Структура должна быть одинаковая для вакансий с обоих сайтов. 
 Общий результат можно вывести с помощью dataFrame через pandas.
 
-[Решение](https://github.com/bostspb/parsing/blob/master/lesson02/task01.py)
+[Решение](https://github.com/BosenkoTM/parsing/blob/main/lesson02/task01.py)
 <br>
 >_Для задания был выбран собственный рабочий проект, в котором требовалось
 собрать данные со справочника банков - bankchart.ru. 
@@ -41,18 +41,18 @@
 ## Урок 3. Системы управления базами данных MongoDB и SQLite в Python
 1. Развернуть у себя на компьютере/виртуальной машине/хостинге MongoDB 
 и реализовать функцию, записывающую собранные вакансии в созданную БД.
-<br> [Решение](https://github.com/bostspb/parsing/blob/master/lesson03/task01.py)
+<br> [Решение](https://github.com/BosenkoTM/parsing/blob/main/lesson03/task01.py)
 (_Вместо вакансий взял информацию о банках из прошлого урока_)
 
 2. Написать функцию, которая производит поиск и выводит на экран вакансии 
 с заработной платой больше введённой суммы. 
 Запрос должен анализировать одновременно минимальную и максимальную зарплату.
-<br> [Решение](https://github.com/bostspb/parsing/blob/master/lesson03/task02.py)
+<br> [Решение](https://github.com/BosenkoTM/parsing/blob/main/lesson03/task02.py)
 (_Реализовал поиск банков, по которым недособирали расширенную информацию_)
 
 3. Написать функцию, которая будет добавлять в вашу базу данных 
 только новые вакансии с сайта.
-<br> [Решение](https://github.com/bostspb/parsing/blob/master/lesson03/task03.py)
+<br> [Решение](https://github.com/BosenkoTM/parsing/blob/main/lesson03/task03.py)
 (_Реализовал добавление информации только по новым банкам_)
 
 
@@ -68,14 +68,14 @@ news.mail.ru, lenta.ru, yandex-новости.
 
 2. Сложить собранные данные в БД
 
-[Решение](https://github.com/bostspb/parsing/tree/master/lesson04)
+[Решение](https://github.com/BosenkoTM/parsing/tree/main/lesson04)
 <br>
 _Парсер под каждый сайт был реализован в виде отдельного класса: 
-[LentaRuParser](https://github.com/bostspb/parsing/blob/master/lesson04/lenta_ru.py),
-[MailRuParser](https://github.com/bostspb/parsing/blob/master/lesson04/mail_ru.py),
-[YandexRuParser](https://github.com/bostspb/parsing/blob/master/lesson04/yandex_ru.py), 
+[LentaRuParser](https://github.com/BosenkoTM/parsing/blob/main/lesson04/lenta_ru.py),
+[MailRuParser](https://github.com/BosenkoTM/parsing/blob/main/lesson04/mail_ru.py),
+[YandexRuParser](https://github.com/BosenkoTM/parsing/blob/main/lesson04/yandex_ru.py), 
 а запуск парсинга и сохранение в базу MongoDB вынесен в отдельный скрипт 
-[main.py](https://github.com/bostspb/parsing/blob/master/lesson04/main.py)_
+[main.py](https://github.com/BosenkoTM/parsing/blob/main/lesson04/main.py)_
 
 
 ## Урок 5. Selenium в Python
